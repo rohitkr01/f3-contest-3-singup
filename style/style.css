@@ -1,0 +1,132 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+nav{
+
+    padding: 20px 5%;
+    /* background-color: gray; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.nav-right ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: rgb(191, 191, 235);
+}
+
+
+/* ============================== */
+/* Index.html  file styling */
+/* ============================== */
+
+.signup-container{
+    padding: 10px 10%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.signup-form-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.signup-form-container .form-items input{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    /* border: none none 10px none gray; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+}
+
+.form-items button{
+    width: 100px;
+
+    padding: 10px 30px;
+    background-color: blanchedalmond;
+    color: black;
+    font-weight: 600;
+    
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
+
+/* ============================== */
+/* Profile.html  file styling */
+/* ============================== */
+
+.profile-container{
+    padding: 20px 5%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.profile-info-value{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.logout-button-container button{
+    padding: 10px 30px;
+    background-color: blanchedalmond;
+    color: black;
+    font-weight: 600;
+    
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: rgb(183, 178, 172);
+    scale: 1.04;
+    cursor: pointer;
+}
+

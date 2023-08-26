@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <li><a href="/index.html">Header</a></li>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="/index.html">Signup</a></li>
+                <li><a href="/profile.html">Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+
+    <div class="signup-container">
+        <div class="signup-tittle">
+            <h1>Signup</p>
+        </div>
+        <div class="signup-form-container">
+            <form id="signup-form">
+                <div class="form-items">
+                    <input type="text" name="name" placeholder="Full Name">
+                </div>
+                <div class="form-items">
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+                <div class="form-items">
+                    <input type="text" name="password" id="password" placeholder="Password">
+                </div>
+                <div class="form-items">
+                    <input type="text"name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+                </div>
+
+                <div class="form-items" >
+                    <p style="color: red;" id="error-message"> </p>
+                
+                    <p style="color: green;"  id="success-message"> </p>
+                </div>
+
+                <div class="form-items">
+                    <button type="submit">Signup</button>
+                </div>
+                
+
+            </form>
+        </div>
+    </div>
+
+    <!-- Include necessary HTML and CSS imports -->
+    <script src="./script/index.js"></script>
+
+</body>
+</html>
